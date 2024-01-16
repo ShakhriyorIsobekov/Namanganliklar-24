@@ -1,7 +1,5 @@
 * {
    box-sizing: border-box;
-   padding: 0;
-   margin: 0;
 }
 
 html {
@@ -54,6 +52,7 @@ img {
 }
 
 .header__list {
+   padding: 0;
    display: flex;
    list-style: none;
    column-gap: 25px;
@@ -95,7 +94,7 @@ img {
    background-color: #DCE6FF;
    padding: 3px 13px 3px 3px;
    border-radius: 39px;
-   margin-right: 25px;
+   margin: 0 25px 0 0;
 }
 
 .header__lang-item {
