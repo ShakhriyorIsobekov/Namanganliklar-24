@@ -36,6 +36,7 @@ img {
 .header__content {
    background-color: #F6F6F6;
    padding: 30px 0;
+   margin-bottom: 30px;
 }
 
 .header__content-all {
@@ -120,4 +121,33 @@ img {
    padding: 13px 20px;
    border-radius: 10px;
    background-color: #7296EC;
+}
+
+/* header-nav */
+
+.header__nav {
+   border-bottom: 1px solid #D1D1D1;
+}
+
+.header__nav-list {
+   padding: 0;
+   margin: 0;
+   list-style: none;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 20px;
+}
+
+.header__nav-link {
+   display: block;
+   text-decoration: none;
+   color: #7F7F7F;
+   font-size: 18px;
+   font-weight: 500;
+   line-height: normal;
+}
+
+.header__aside {
+   margin-top: 40px;
 }
