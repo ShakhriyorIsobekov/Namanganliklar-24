@@ -84,6 +84,10 @@ img {
    color: #8D8D8D;
    font-size: 14px;
    line-height: normal;
+   background-image: url('../img/search.svg');
+   background-repeat: no-repeat;
+   background-size: 20px;
+   background-position: 13px center;
 }
 
 .header__form-input:focus-visible {
@@ -230,8 +234,10 @@ img {
    max-width: 1050px;
    width: 100%;
    padding: 24px 70px 24px 24px;
-   background-color: #eb9f66;
    border-radius: 11px;
+   background-image: url('../img/ad-bg.png');
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 .main__ad-content {
@@ -507,6 +513,10 @@ img {
    margin-bottom: 20px;
 }
 
+.main__contact-form {
+   width: 100%;
+}
+
 .main__contact-input {
    display: flex;
    margin-bottom: 10px;
@@ -563,7 +573,8 @@ img {
 
 .form__contact-textarea {
    display: block;
-   width: 696px;
+   width: 100%;
+   max-width: 696px;
    min-height: 180px !important;
    resize: vertical;
    border-radius: 10px;
