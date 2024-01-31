@@ -4,6 +4,11 @@
    box-sizing: border-box;
 }
 
+:root {
+   --main-color: #000;
+   --secondary-color: #4A4B4C;
+}
+
 html {
    height: 100%;
    scroll-behavior: smooth;
@@ -113,7 +118,7 @@ img {
 .header__lang-item:first-child {
    background-color: #fff;
    border-radius: 50%;
-   color: #000;
+   color: var(--main-color);
    padding: 8px;
    margin-right: 8px;
 }
@@ -187,7 +192,7 @@ img {
 .main__card-link {
    display: block;
    text-decoration: none;
-   color: #000;
+   color: var(--main-color);
    font-size: 20px;
    font-weight: 500;
    line-height: 26px;
@@ -202,7 +207,7 @@ img {
 }
 
 .main__card-text {
-   color: #4A4B4C;
+   color: var(--secondary-color);
    font-weight: 400;
    line-height: 22px;
    margin: 0 0 15px 0;
@@ -247,7 +252,7 @@ img {
 }
 
 .main__ad-text {
-   color: #000;
+   color: var(--main-color);
    font-size: 20px;
    font-weight: 500;
    line-height: 26px;
@@ -270,7 +275,7 @@ img {
 
 
 .main__global-title {
-   color: #000;
+   color: var(--main-color);
    font-size: 24px;
    font-weight: 500;
    line-height: normal;
@@ -305,7 +310,7 @@ img {
 .global__left-title {
    max-width: 535px;
    width: 100%;
-   color: #000;
+   color: var(--main-color);
    font-size: 20px;
    font-weight: 500;
    line-height: 26px;
@@ -315,7 +320,7 @@ img {
 .global__left-text {
    max-width: 535px;
    width: 100%;
-   color: #4A4B4C;
+   color: var(--secondary-color);
    line-height: 22px;
    margin: 0 0 17px 0;
 }
@@ -337,7 +342,7 @@ img {
    text-align: center;
    background-color: #F6F6F6;
    padding: 17px;
-   color: #000;
+   color: var(--main-color);
    text-decoration: none;
    line-height: normal;
    transition: color 0.4s ease;
@@ -362,14 +367,14 @@ img {
 
 .global__right-title {
    margin: 0 0 25px 0;
-   color: #000;
+   color: var(--main-color);
    font-size: 24px;
    font-weight: 500;
    line-height: normal;
 }
 
 .global__right-text {
-   color: #000;
+   color: var(--main-color);
    font-size: 18px;
    font-weight: 500;
    line-height: 24px;
@@ -498,7 +503,7 @@ img {
 /* Contact.html */
 
 .main__contact-title {
-   color: #000;
+   color: var(--main-color);
    font-family: Rubik;
    font-size: 24px;
    font-weight: 500;
@@ -529,7 +534,7 @@ img {
    padding: 18px 0 18px 20px;
    border: 1px solid rgba(0, 0, 0, 0.20);
    background-color: #fff;
-   color: #000;
+   color: var(--main-color);
    font-family: Rubik;
    font-weight: 400;
    line-height: normal;
@@ -564,7 +569,7 @@ img {
    background: #FFF;
    padding: 18px 0 18px 20px;
    margin-bottom: 10px;
-   color: #000;
+   color: var(--main-color);
    font-family: Rubik;
    font-weight: 400;
    line-height: normal;
@@ -581,7 +586,7 @@ img {
    border: 1px solid rgba(0, 0, 0, 0.20);
    background: #FFF;
    padding: 18px 0 0 20px;
-   color: #000;
+   color: var(--main-color);
    font-family: Rubik;
    font-weight: 400;
    line-height: normal;
@@ -599,7 +604,7 @@ img {
 }
 
 .main__info-title {
-   color: #000;
+   color: var(--main-color);
    font-family: Rubik;
    font-size: 20px;
    font-weight: 500;
@@ -608,7 +613,7 @@ img {
 }
 
 .main__info-text:not(:last-child) {
-   color: #000;
+   color: var(--main-color);
    font-family: Rubik;
    font-weight: 400;
    line-height: normal;
