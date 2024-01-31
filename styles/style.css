@@ -542,6 +542,10 @@ img {
    outline: none;
 }
 
+.form__contact-textarea:focus-visible {
+   outline: none;
+}
+
 .form__contact-email {
    max-width: 696px;
    width: 100%;
@@ -621,6 +625,7 @@ img {
    background-color: #7297EF;
    margin: 0 auto;
    transition: opacity 0.4s ease;
+   border: none;
 }
 
 .main__contact-btn {
