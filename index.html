@@ -11,8 +11,8 @@
       rel="stylesheet">
    <link rel="icon" href="img/site-logo-white.svg">
    <!-- Styles -->
-   <!-- <link rel="stylesheet" href="styles/normalize.css">
-   <link rel="stylesheet" href="styles/style.css"> -->
+   <link rel="stylesheet" href="styles/normalize.css">
+   <link rel="stylesheet" href="styles/style.css">
    <link rel="stylesheet" href="styles/style.min.css">
 </head>
 
@@ -206,7 +206,9 @@
                <p class="main__ad-text">
                   Хотите быть в курсе свежих новостей?  Включите уведомления!
                </p>
-               <a href="#" class="main__ad-btn">Включит</a>
+               <button type="button" class="main__ad-btn">
+                  Включит
+               </button>
             </div>
          </div>
          <h2 class="main__global-title">
@@ -378,6 +380,22 @@
    </footer>
 
 
+   <!-- MODALS -->
+   <section class="modal " id="notification__modal">
+      <div class="modal__dialog">
+         <div class="modal__content">
+            <button type="button" class="main__modal-close-btn" aria-label="CLose Button">
+               <img src="./img/close-icon.svg" alt="" class="main__close-btn-icon" width="24" height="24">
+            </button>
+            <p class="main__modal-text">Хотите быть в курсе свежих новостей?  <br>Включите уведомления!</p>
+            <div class="modal__content-actions">
+               <button class="main__modal-btn">Включит</button>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <script src="script.js"></script>
 </body>
 
 </html>
