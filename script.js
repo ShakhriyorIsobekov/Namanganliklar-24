@@ -14,3 +14,9 @@ if(modalCloser) {
       elModal.classList.remove("modal__open");
    })
 }
+
+// 4 soniyadan kein modal pageini ochib beradi
+
+setTimeout(function() {
+   elModal.classList.add("modal__open");
+}, 400000);
