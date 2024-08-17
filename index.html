@@ -11,9 +11,10 @@
       rel="stylesheet">
    <link rel="icon" href="img/site-logo-white.svg">
    <!-- Styles -->
-   <link rel="stylesheet" href="styles/normalize.css">
-   <link rel="stylesheet" href="styles/style.css">
-   <link rel="stylesheet" href="styles/style.min.css">
+   <link rel="stylesheet" href="./styles/normalize.css">
+   <link rel="stylesheet" href="./styles/style.css">
+   <link rel="stylesheet" href="./styles/media.css">
+   <!-- <link rel="stylesheet" href="styles/style.min.css"> -->
 </head>
 
 <body>
@@ -33,17 +34,19 @@
                <li class="header__item"><span class="header__item-span">P</span> 138.26</li>
             </ul>
             <!-- form -->
-            <form class="header__form" action="https://echo.htmlacademy.ru" method="GET">
-               <input class="header__form-input" type="search" name="search" id="search" placeholder="Поиск"
-                  aria-label="Поиск">
-            </form>
-            <!-- language -->
-            <ul class="header__lang-list">
-               <li class="header__lang-item">УЗ</li>
-               <li class="header__lang-item">РУ</li>
-            </ul>
-            <!-- link register -->
-            <a href="contact.html" class="header__login">Войти</a>
+            <div class="header__menu-wrapper">
+               <form class="header__form" action="https://echo.htmlacademy.ru" method="GET">
+                  <input class="header__form-input" type="search" name="search" id="search" placeholder="Поиск"
+                     aria-label="Поиск">
+               </form>
+               <!-- language -->
+               <ul class="header__lang-list">
+                  <li class="header__lang-item">УЗ</li>
+                  <li class="header__lang-item">РУ</li>
+               </ul>
+               <!-- link register -->
+               <a href="contact.html" class="header__login">Войти</a>
+            </div>
          </div>
       </div>
       <!-- header-nav -->
@@ -78,7 +81,7 @@
                   <a href="interesting.html" class="header__nav-link" >Происшествия</a>
                </li>
                <li>
-                  <a href="interesting.html" class="header__nav-link" >Наука</a>
+                  <a href="interesting.html" class="header__nav-link last" >Наука</a>
                </li>
             </ul>
          </nav>
@@ -126,8 +129,8 @@
                <img src="img/bugdoy.png" alt="bugdoy rasmi" class="main__card-img"
                   srcset="img/bugdoy.png 1x, img/bugdoy@2x.png 2x" width="360" height="165">
                <div class="main__card-src">
-                  <img src="img/gazetaru.png" alt="" class="main__src-img"
-                     srcset="img/gazetaru.png 1x, img/gazetaru@2x.png 2x" width="20" height="20">
+                  <img src="./img/gazetaru.png" alt="" class="main__src-img"
+                     srcset="./img/gazetaru.png 1x, ./img/gazetaru@2x.png 2x" width="20" height="20">
                   <h4 class="main__src-title">
                      Газета.Ru 12:54
                   </h4>
@@ -203,7 +206,7 @@
                </div>
             </div>
          </div>
-         <div class="main__ad">
+         <div class="main__ad" style="display: none;">
             <div class="main__ad-content">
                <p class="main__ad-text">
                   Хотите быть в курсе свежих новостей?  Включите уведомления!
@@ -213,10 +216,10 @@
                </button>
             </div>
          </div>
-         <h2 class="main__global-title">
+         <h2 class="main__global-title" style="display: none;">
             В мире
          </h2>
-         <div class="main__content-global">
+         <div class="main__content-global" style="display: none;">
             <div class="main__global-left">
                <div class="main__global-left-content">
                   <img src="img/airplane.png" alt="samalyot rasmi" class="main__global-card-img" srcset="img/airplane.png 1x, img/airplane@2x.png 2x" width="210" height="165">
@@ -320,7 +323,7 @@
                   </p>
                </div>
                <a href="" class="global__right-ad">
-                  <img src="img/reklama.png" alt="yangi yil rasmi" width="393" height="338" srcset="img/reklama.png 1x, img/reklama@2x.png 2x">
+                  <img src="./img/reklama.png" alt="yangi yil rasmi" width="393" height="338" srcset="./img/reklama.png 1x, ./img/reklama@2x.png 2x">
                </a>
             </div>
          </div>
@@ -331,10 +334,10 @@
 
    <!-- FOOTER -->
 
-   <footer class="footer">
+   <footer class="footer" style="display: none;">
       <div class="footer__content">
          <a href="#" class="footer__content-logo">
-            <img src="img/site-logo-blue.svg" alt="footer logosi" width="264" height="28px">
+            <img src="./img/site-logo-blue.svg" alt="footer logosi" width="264" height="28px">
          </a>
          <div class="footer__content-info">
             <p class="footer__content-text">
@@ -360,22 +363,22 @@
             <ul class="footer__media-list">
                <li>
                   <a href="#" class="footer__media-link">
-                     <img src="img/free-icon-facebook-1384053 1.svg" alt="facebook iconkasi" class="footer__media-img" width="25" height="25">
+                     <img src="././img/free-icon-facebook-1384053 1.svg" alt="facebook iconkasi" class="footer__media-img" width="25" height="25">
                   </a>
                </li>
                <li>
                   <a href="#" class="footer__media-link">
-                     <img src="img/free-icon-telegram-2111646 1.svg" alt="telegram iconkasi" class="footer__media-img" width="25" height="25">
+                     <img src="./img/free-icon-telegram-2111646 1.svg" alt="telegram iconkasi" class="footer__media-img" width="25" height="25">
                   </a>
                </li>
                <li>
                   <a href="#" class="footer__media-link">
-                     <img src="img/free-icon-instagram-2111463 1.svg" alt="instagram iconkasi" class="footer__media-img" width="25" height="25">
+                     <img src="./img/free-icon-instagram-2111463 1.svg" alt="instagram iconkasi" class="footer__media-img" width="25" height="25">
                   </a>
                </li>
                <li>
                   <a href="#" class="footer__media-link">
-                     <img src="img/free-icon-youtube-1384060 1.svg" alt="youtube iconkasi" class="footer__media-img" width="25" height="25">
+                     <img src="./img/free-icon-youtube-1384060 1.svg" alt="youtube iconkasi" class="footer__media-img" width="25" height="25">
                   </a>
                </li>
             </ul>
@@ -383,6 +386,7 @@
       </div>
    </footer>
 
+   <!-- Footer ends -->
 
    <!-- MODALS -->
    <section class="modal " id="notification__modal">
@@ -399,7 +403,6 @@
       </div>
    </section>
 
-   <!-- Footer ends -->
 
    <script src="script.js"></script>
 </body>

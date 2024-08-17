@@ -28,7 +28,8 @@ body {
 }
 
 .container {
-   max-width: 1200px;
+   max-width: 1240px;
+   padding: 0 20px;
    width: 100%;
    margin: 0 auto;
 }
@@ -36,6 +37,10 @@ body {
 img {
    max-width: 100%;
    height: auto;
+}
+
+.last {
+   margin-right: 0 !important;
 }
 
 /* Header starts */
@@ -161,6 +166,7 @@ img {
 
 .header__nav-link {
    display: block;
+   margin-right: 5px;
    text-decoration: none;
    color: #7F7F7F;
    font-size: 18px;
@@ -171,6 +177,14 @@ img {
 .header__aside {
    margin-top: 40px;
    margin-bottom: 50px;
+}
+
+.header__aside-img {
+   width: 100%;
+}
+
+.header__menu-wrapper {
+   display: flex;
 }
 
 /* Header ends */
