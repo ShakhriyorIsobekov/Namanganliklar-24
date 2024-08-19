@@ -13,13 +13,13 @@
    <!-- Styles -->
    <link rel="stylesheet" href="styles/normalize.css">
    <link rel="stylesheet" href="styles/style.css">
+   <link rel="stylesheet" href="styles/media.css">
    <!-- <link rel="stylesheet" href="styles/style.min.css"> -->
 </head>
 
 <body>
 
    <!-- HEADER -->
-
    <header class="header">
       <div class="header__content">
          <div class="header__content-all container">
@@ -33,17 +33,19 @@
                <li class="header__item"><span class="header__item-span">P</span> 138.26</li>
             </ul>
             <!-- form -->
-            <form class="header__form" action="https://echo.htmlacademy.ru" method="GET">
-               <input class="header__form-input" type="search" name="search" id="search" placeholder="Поиск"
-                  aria-label="Поиск">
-            </form>
-            <!-- language -->
-            <ul class="header__lang-list">
-               <li class="header__lang-item">УЗ</li>
-               <li class="header__lang-item">РУ</li>
-            </ul>
-            <!-- link register -->
-            <a href="contact.html" target="_blank" class="header__login">Войти</a>
+            <div class="header__menu-wrapper">
+               <form class="header__form" action="https://echo.htmlacademy.ru" method="GET">
+                  <input class="header__form-input" type="search" name="search" id="search" placeholder="Поиск"
+                     aria-label="Поиск">
+               </form>
+               <!-- language -->
+               <ul class="header__lang-list">
+                  <li class="header__lang-item">УЗ</li>
+                  <li class="header__lang-item">РУ</li>
+               </ul>
+               <!-- link register -->
+               <a href="contact.html" class="header__login">Войти</a>
+            </div>
          </div>
       </div>
       <!-- header-nav -->
@@ -51,41 +53,41 @@
          <nav class="header__nav">
             <ul class="header__nav-list">
                <li>
-                  <a href="index.html" class="header__nav-link">Главное</a>
+                  <a href="index.html" class="header__nav-link" >Главное</a>
                </li>
                <li>
-                  <a href="interesting.html" class="header__nav-link">Интересное</a>
+                  <a href="interesting.html" class="header__nav-link" >Интересное</a>
                </li>
                <li>
-                  <a href="interesting.html" class="header__nav-link">Экономика</a>
+                  <a href="interesting.html" class="header__nav-link" >Экономика</a>
                </li>
                <li>
-                  <a href="interesting.html" class="header__nav-link">Политика</a>
+                  <a href="interesting.html" class="header__nav-link" >Политика</a>
                </li>
                <li>
-                  <a href="interesting.html" class="header__nav-link">Общество</a>
+                  <a href="interesting.html" class="header__nav-link" >Общество</a>
                </li>
                <li>
-                  <a href="interesting.html" class="header__nav-link">Технологии</a>
+                  <a href="interesting.html" class="header__nav-link" >Технологии</a>
                </li>
                <li>
-                  <a href="interesting.html" class="header__nav-link">Спорт</a>
+                  <a href="interesting.html" class="header__nav-link" >Спорт</a>
                </li>
                <li>
-                  <a href="interesting.html" class="header__nav-link">Культура</a>
+                  <a href="interesting.html" class="header__nav-link" >Культура</a>
                </li>
                <li>
-                  <a href="interesting.html" class="header__nav-link">Происшествия</a>
+                  <a href="interesting.html" class="header__nav-link" >Происшествия</a>
                </li>
                <li>
-                  <a href="#" class="header__nav-link">Наука</a>
+                  <a href="interesting.html" class="header__nav-link last" >Наука</a>
                </li>
             </ul>
          </nav>
          <aside class="header__aside">
             <a href="#" class="header__aside-banner">
-               <img src="img/second-banner.png" alt="banner" class="header__aside-img" width="1200" height="128"
-                  srcset="img/second-banner.png 1x, img/second-banner@2x.png 2x">
+               <img src="img/site-banner.png" alt="banner" class="header__aside-img" width="1200" height="128"
+                  srcset="img/site-banner.png 1x, img/site-banner@2x.png 2x">
             </a>
          </aside>
       </div>
@@ -109,7 +111,7 @@
                         Система теплоснабжения Ташкента на 30 лет будет передана в управление французской компании Veolia для модернизации и реконструкции, сообщает 22 сентября пресс-служба...
                      </p>
                      <div class="global__left-minicard">
-                        <img src="img/krasnaya-kniga.png" alt="iconca" class="global__minicard-img" srcset="img/krasnaya-kniga.png 1x, img/krasnaya-kniga@2x.png 2x" width="20" height="20">
+                        <img src="img/red--book.png" alt="iconca" class="global__minicard-img" width="20" height="20">
                         <p class="global__left-minicard-info">
                            ИА Красная Весна 15:26
                         </p>
@@ -160,7 +162,7 @@
                         «В сети наши потребители обсуждали тему сильного преобладания белого цвета в модельном ряду UzAuto Motors. Почему вы не делаете двухцветные автомобили? Этот вопрос был...
                      </p>
                      <div class="global__left-minicard">
-                        <img src="img/sputik.png" alt="iconca" class="global__minicard-img" srcset="img/sputik.png 1x, img/sputik@2x.png 2x" width="20" height="20">
+                        <img src="img/sputnic.png" alt="iconca" class="global__minicard-img" srcset="img/sputnic.png 1x, img/sputnic@2x.png 2x" width="20" height="20">
                         <p class="global__left-minicard-info">
                            Sputnik Узбекистан 18:43
                         </p>
@@ -277,16 +279,6 @@
    </main>
 
    <!-- FOOTER -->
-
-
-
-
-
-
-
-
-
-
    <footer class="footer">
       <div class="footer__content">
          <a href="#" class="footer__content-logo">
